@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@300&family=Merriweather:wght@300&display=swap');
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #5a2b04;
+    font-family: 'Bebas Neue', sans-serif;
+    color: white;
+    text-shadow: 1px 2px 2px black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+}
+h1{
+    font-size: 50px;
+}
+#conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#area{
+    background-color: #5a2b04;
+    width: 550px;
+    height: 390px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border-radius: 15px;
+}
+#opcNo:hover{
+    color: red;
+}
+#opcyes:hover{
+    color: blue;
+}
+.option{
+    background-color: rgb(55, 180, 17);
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+    font-size: 35px;
+    border-radius: 15px;
+    transition: all .5s;
+    box-shadow: 1px 3px 3px 2px rgba(1, 1, 1, .5);
+    cursor: pointer;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    margin-top: 45px;
+    transition: all .5s;
+}
